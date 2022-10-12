@@ -1,0 +1,5 @@
+crontab -e */5 * * * * test.sh 
+tar -zcvf test-temp.tar.gz /Users/cn332302/Desktop/test/etc/ 
+git add --test-temp.tar /Users/cn332302/Desktop/target/etc/ 
+git commit -a -m "test archive" 
+git push -u origin master
